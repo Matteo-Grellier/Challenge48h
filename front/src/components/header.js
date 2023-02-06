@@ -19,7 +19,7 @@ function Header() {
               <li> <a href="#"value="Login"onClick={() => setShowPopup(!showPopup)}>Login</a>
               </li>
               <li>
-                <a href="#inscription"onClick={() => setShowSecondPop(!ShowSecondPop)}>Inscription</a>
+                <a href="#inscription"onClick={() => setShowSecondPop(!ShowSecondPop)}>Register</a>
               </li>
             </ul>
           </li>
