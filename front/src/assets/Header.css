@@ -9,6 +9,10 @@
     background: #48C5D7;
     height: 60px;
     display: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .nav li {
