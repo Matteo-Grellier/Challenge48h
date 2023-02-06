@@ -19,19 +19,59 @@ connection.connect(error => {
     }
 })
 
-
-func = function(req, res){
+getclients = function(req, res){
     try {
-        var sql = connection.query("SELECT * FROM products", (err, result) => {
+            connection.query("SELECT * FROM clients", (err, result) => {
             if (err) throw err
-            console.log(result)
             res.send(result)
+            console.log("Clients have been fetched successfully.")
+            
         })
     }
     catch (error) {
-        console.log("A error has been occurred ")
+        console.log("A error has been occurred when trying to get clients")
         throw error
     }
 }
 
-module.exports = { func }
+getmerchants = function(req, res){
+    try {
+            connection.query("SELECT * FROM merchants", (err, result) => {
+            if (err) throw err
+            res.send(result)
+            console.log("Merchants have been fetched successfully.")
+        })
+    }
+    catch (error) {
+        console.log("A error has been occurred when trying to get merchants")
+        throw error
+    }
+}
+
+// getorders = function(req, res){
+//     try {
+//             connection.query("SELECT * FROM orders", (err, result) => {
+//             if (err) throw err
+//             res.send(result)
+//         })
+//     }
+//     catch (error) {
+//         console.log("A error has been occurred when trying to get orders")
+//         throw error
+//     }
+// }
+
+// getproducts = function(req, res){
+//     try {
+//             connection.query("SELECT * FROM products", (err, result) => {
+//             if (err) throw err
+//             res.send(result)
+//         })
+//     }
+//     catch (error) {
+//         console.log("A error has been occurred when trying to get products")
+//         throw error
+//     }
+// }
+
+module.exports = { getclients, getmerchants }

@@ -3,11 +3,14 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const { func } = require('./request.js')
+const { getclients, getmerchants } = require('./request.js')
 
 // simple route
 app.get('/', (req, res) => {
-    func(req,res)
+    getclients(req,res)
+    getmerchants(req,res)
+    // getorders(req,res)
+    // getproducts(req,res)
 })
 
 app.listen(port, ()=>{
