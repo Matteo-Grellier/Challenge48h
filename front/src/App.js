@@ -13,7 +13,8 @@ function App() {
   </header>
 <body>
     <Card title= "test"> </Card> 
-    <Card/>
+        <Card />
+        
 </body>
 </div>
 
