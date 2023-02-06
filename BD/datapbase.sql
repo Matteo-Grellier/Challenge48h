@@ -41,3 +41,14 @@ CREATE TABLE categories (
 ALTER TABLE products
 ADD COLUMN category_id INT,
 ADD FOREIGN KEY (category_id) REFERENCES categories(id);
+
+ALTER TABLE clients
+CHANGE country_code country_code VARCHAR(3);
+
+ALTER TABLE clients
+ADD COLUMN email VARCHAR(255),
+ADD COLUMN password VARCHAR(255);
+
+ALTER TABLE merchants
+ADD COLUMN email VARCHAR(255),
+ADD COLUMN password VARCHAR(255);
