@@ -21,3 +21,10 @@ VALUES
   (1, 1),
   (2, 2),
   (3, 3);
+
+  
+INSERT INTO categories (category_name)
+VALUES
+  ('Food'),
+  ('Books'),
+  ('Furnitures');
