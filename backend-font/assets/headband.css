@@ -1,1 +1,82 @@
-s
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background: #48C5D7;
+    height: 60px;
+    display:100%;
+}
+
+.nav li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+.nav li a {
+    font-size: 16px;
+    color: white;
+    display: block;
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    border-left: 1px solid #48C5D7;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.nav li a:hover {
+    background-color: #48C5D7;
+}
+
+#home a {
+    padding: 18px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+#login{
+    left :77%;
+}
+#login a {
+    left : 90%;
+}
+
+#login&gt;
+
+a {
+    background-image: url(triangle.png);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    padding-right: 42px;
+}
+
+.subnav {
+    visibility: hidden;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 200px;
+    height: auto;
+    opacity: 0;
+    transition: all 0.1s;
+    background: #FFA653;
+}
+
+.subnav li {
+    float: none;
+}
+
+.subnav li a {
+    border-bottom: 1px solid #FFA653;
+}
+
+#login:hover .subnav {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
