@@ -5,13 +5,13 @@ h2{
 }
 
 .finalCard{
-    display: row;
+    display: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 8px;
     background-color: #FFA653;
     height: 100px;
-    width: 250px;
+    width: 450px;
     align-items: center;
     align-content: center;;
     position: absolute;
@@ -35,3 +35,27 @@ body{
     background-color: lightgray;
 }
 
+.card1{
+        justify-content: center;
+        justify-content: space-between;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 8px;
+            background-color: #FFA653;
+            height: 100px;
+            width: 550px;
+            align-items: center;
+            align-content: center;
+            position: absolute;
+            left: 25px;
+            top: 20rem;
+}
+.Price {
+    float: right;
+    margin-right: 20px;
+}
+
+.Delete{
+float: right;
+    margin-right: 20px;
+}

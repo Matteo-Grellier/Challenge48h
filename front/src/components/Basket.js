@@ -1,15 +1,16 @@
 import React from 'react';
-import '../assets/Card.css';
-// import Header from "./components/Header.js";
 import Card from './Card.js'
-import '../assets/Card.css';
+//import '../assets/Card.css';
 import Header from './header.js';
 import '../assets/Basket.css'
 import Home from '../assets/Pages/Home.js';
 
 
 
-function Basket(){
+function Basket(Name, Price) {
+    Name="test";
+    Price="10"
+    let Quantity="14";
     return (
       <>
         <Header></Header>
@@ -22,7 +23,19 @@ function Basket(){
             <b>Passer commande</b>
           </button>
         </div>
-        <Card id="card1"></Card>
+        <div class="card1">
+            <div class="card2">
+                <div class="firstRow" type="row">
+                <p>{Name}</p> 
+                <div class="Price">{Price}</div>
+            </div>
+            <br></br>
+            <br></br>
+            <p>Quantity: <input id="number" type="number" max="100"/> </p>
+              <input class="Delete" type="reset" value="Delete"/>
+        </div>
+                </div>
+
       </>
     );
 }
