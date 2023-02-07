@@ -45,15 +45,12 @@ function Header() {
             <input
               type="button"
               className="buttonInPopUp"
-              value="Fermer"
+              value="Close"
               onClick={() => setShowPopup(!showPopup)}
             />
             <div className="content">
               <form action="Header.js" method="get">
-                <br></br>
-                <br></br>
                 Mail:
-                <br></br>
                 <br></br>
                 <input
                   type="email"
@@ -65,7 +62,6 @@ function Header() {
                 <br></br>
                 <label for="pass">Password:</label>
                 <br></br>
-                <br></br>
                 <input
                   type="password"
                   id="pass"
@@ -73,7 +69,7 @@ function Header() {
                   minlength="8"
                   required
                 />
-                <br></br> <br></br>
+                <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
             </div>
@@ -88,7 +84,6 @@ function Header() {
           ></div>
           <div className="contentPopUp">
             <br></br>
-            <br></br>
             <input
               type="button"
               className="buttonInPopUp"
@@ -97,12 +92,11 @@ function Header() {
             />
             <div className="content">
               <form action="Header.js" method="get">
-                Full Name : <br></br>
+                Full Name :
                 <input type="text" name="Name" />
                 <br></br>
                 <br></br>
                 Mail
-                <br></br>
                 <br></br>
                 <input
                   type="email"
@@ -114,7 +108,6 @@ function Header() {
                 <br></br>
                 <br></br>
                 <label for="pass">Password (8 characters minimum):</label>{" "}
-                <br></br>
                 <br></br>
                 <input
                   type="password"
@@ -133,17 +126,14 @@ function Header() {
                   minlength="8"
                   required
                 />
-                <br />
+                <br></br>
                 <br></br>
                 Coutry code :<br></br>
-                <br></br>
                 <input type="text" name="Countrie" />
                 <br></br>
                 <br></br>
                 Adress :<br></br>
-                <br></br>
                 <input type="text" name="Adress" />
-                <br></br>
                 <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
