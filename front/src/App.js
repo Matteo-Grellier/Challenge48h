@@ -3,25 +3,23 @@
 import Header from "./components/Header.js";
 import Shop from "./components/shop.js";
 function App() {
-  return ( 
+  return (
     <div>
-   <header>
-      <meta charSet="UTF-8" />
-      <title>Document</title>
-      <link rel="stylesheet" href="../assets/homePage.css" type="text/css" />
+      <header>
+        <meta charSet="UTF-8" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../assets/homePage.css" type="text/css" />
         <Header></Header>
-  </header>
-  <body>
-        
+      </header>
 
- {/* <Card title= "test"> </Card>  */}
+        {/* <Card title= "test"> </Card>  */}
         {/* <Card /> 
         <Card />
         <Card /> */}
-       <Shop></Shop>        
-      </body>
-   </div>
-    
+        <Shop></Shop>
+        
+    </div>
+
   );
 }
 

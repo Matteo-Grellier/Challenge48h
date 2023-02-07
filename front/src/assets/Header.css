@@ -3,6 +3,22 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #9BE3DE;
+    --color-2: #BEEBE9;
+    --color-3: #FFFDF9;
+    --color-4: #FFE3ED;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .nav {
@@ -83,28 +99,6 @@ a {
     visibility: visible;
     top: 100%;
     opacity: 1;
-}
-
-:root {
-    --color-1: #9BE3DE;
-    --color-2: #BEEBE9;
-    --color-3: #FFFDF9;
-    --color-4: #FFE3ED;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-3);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .contentPopUp {
@@ -193,8 +187,4 @@ body {
     transform: translate(-7px, -7px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.4s ease-in-out;
-}
-
-.logo{
-    width: 10%;
 }
