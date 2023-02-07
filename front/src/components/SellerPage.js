@@ -3,5 +3,9 @@ import './assets/Card.css';
 import Header from "./components/Header.js";
 
 function SellerPage(){
-    return 
+    return (
+
+   );
 }
+
+export default SellerPage;
