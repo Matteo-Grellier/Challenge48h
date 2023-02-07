@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
-import Bag from "./components/Basket.js";
+//import Basket from "./components/Basket.js";
 
 function Header() {
   const [showPopup, setShowPopup] = useState(false);
@@ -10,8 +10,7 @@ function Header() {
       <header className="Header-header">
         <ul className="nav">
           <li id="home">
-            <a href="#http://localhost:3000/#">Data dingos
-            </a>
+            <a href="#http://localhost:3000/#">Data dingos</a>
           </li>
           <li id="shopping">
             <a href="./Basket.js"> Your bag</a>
@@ -142,6 +141,7 @@ function Header() {
               </form>
             </div>
           </div>
+         {/* <Basket></Basket> */}
           <div class="content second">
             <h1>Cross with animation menu</h1>
             <div class="burger">
