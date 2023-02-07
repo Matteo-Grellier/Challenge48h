@@ -5,17 +5,15 @@ h2{
 }
 
 .finalCard{
-    display: center;
+    display: flex;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 8px;
     background-color: #FFA653;
     height: 100px;
     width: 450px;
-    align-items: center;
-    align-content: center;;
     position: absolute;
-    right: 90px;
+    right: 7px;
     top: 20rem;
 }
 
@@ -46,6 +44,7 @@ body{
     height: 152px;
     width: 550px;
     margin-top: 8rem;
+    margin-left: 25px;
 
 }
 

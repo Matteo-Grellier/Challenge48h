@@ -3,7 +3,7 @@ import Card from "../../components/Card.js";
 import Header from "../../components/header.js";
 import React, { Component } from 'react';
 import '../Card.css';
-
+import OrdersPage from "../../assets/Pages/ordersPage.js";
 
 function Home() {
   return (
@@ -14,8 +14,7 @@ function Home() {
         <Header></Header>
       </header>
       <body>
-        {" "}
-        <div className="content">
+         <div className="content">
           <div className="contentcard">
             <Card
               id="1"
@@ -111,7 +110,8 @@ function Home() {
           </div>
         </div>
       </body>
-    </div>
+    </div>       
+      
   );
 }
 

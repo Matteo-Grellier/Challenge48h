@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from './Card.js'
-//import '../assets/Card.css';
 import Header from './header.js';
 import '../assets/Basket.css'
 import Home from '../assets/Pages/Home.js';
@@ -16,9 +15,9 @@ function Basket(PorductName, PriceProduct, LinkImage) {
     return (
       <>
         <Header></Header>
-        <h2>
+        {/* <h2>
           <b>Your bag : </b>
-        </h2>
+        </h2> */}
             <br></br>
         <div className="finalCard">
           <h4>all-total (0 articles ): 000 $</h4>

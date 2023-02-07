@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 15rem;
+    height: 17rem;
+    background-color: #FFA653;
+    size: 120px;
+    border-radius: 10px;
+    margin-bottom: 10rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    text-decoration: none;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 40px 0 #FFA653;
+    background-color: #fc8517;
+}
+
+.container {
+    padding: 1px 14px;
+    text-align: center;
+    background-color: #48C5D7;
+    border-radius: 4px;
+
+}
+
+#order{
+    font-weight: bold;
+}
+
+body{
+    background-color: lightgrey;
+}
