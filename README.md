@@ -19,7 +19,9 @@ We used `SQL` to build the database to stock all infos for each server separatel
 After some time, we figured out it would be easier to go from HTML to `React`, so we modified our existing drafts to work with React. 
 As for the simulation of the network, we decided of an `API` that handles the database and the website. All of the API will then be linked to each other using an `HTTPS protocol` which grants a secured communication. 
 
-Then, we can create paths to communicate, notably /api/newConnexion that is used to broadcast a new connection on the network to all servers. During each query, to allow a fast and responsive infrastructure, the data we got from that query is temporarily saved in the database server in order to give fast answers to the next request that needs these informations. It also allows for backup data in case we lose a server. 
+Then, we can create paths to communicate, notably /api/newConnexion that is used to broadcast a new connection on the network to all servers. During each query, to allow a fast and responsive infrastructure, the data we got from that query is temporarily saved in the database server in order to give fast answers to the next request that needs these informations. It also allows for backup data in case we lose a server.
+
+![image](https://user-images.githubusercontent.com/58112376/217385707-e1b2a311-4e02-4b8a-ae39-f6f95bf739a7.png)
 
 ## Quick rundown of the website ##
 
