@@ -15,18 +15,18 @@ function App() {
     
     <div className="content">
     <div className="contentcard">
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
-    <Card title= "test" price="125" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob"/>
     </div>
     </div>
     </body>
