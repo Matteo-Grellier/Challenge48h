@@ -3,12 +3,12 @@ function Card({title,price,sellerName}) {
         <div className="card"  >
         <img
         src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?cs=srgb&dl=pexels-pixabay-51312.jpg&fm=jpg"
-        style={{width: '100%' }} />
+        style={{width: '98%' }} />
         <div className="container">
         <h4><b>{title}</b></h4>  
         <p><b>{price}</b></p>
         <p>{sellerName}</p>
-        <button id="buttonId">+ order</button>
+        <button class="buttonId">+ order</button>
         
         </div>
         </div>

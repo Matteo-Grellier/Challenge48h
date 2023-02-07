@@ -58,10 +58,12 @@ body{
   align-items: center;
   justify-content: center;
 }
-buttonId:hover{
-  background-color: #FFA653;
+
+.buttonId{
   border: black;
   border-radius: 4px;
-  display: flex;
-  margin-right: 2rem;
+  /* display: flex; */
+  /* right: 1em; */
+  margin-left: 135px;
+  position: relative;
 }
