@@ -14,6 +14,7 @@ function App() {
     
     <div className="content">
     <div className="contentcard">
+<<<<<<< HEAD
     <Card title= "test" price="125" sellerName="Bob"/>
     <Card title= "test" price="15" sellerName="Bob"/>
     <Card title= "test" price="125" sellerName="Bob"/>
@@ -26,6 +27,20 @@ function App() {
     <Card title= "test" price="125" sellerName="Bob"/>
     <Card title= "test" price="125" sellerName="Bob"/>
     <Card title= "test" price="125" sellerName="Bob"/>
+=======
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+    <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
+>>>>>>> etienne
     </div>
     </div>
     </body>
