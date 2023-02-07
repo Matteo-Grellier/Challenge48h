@@ -1,4 +1,5 @@
 import Header from './header.js';
+import React from 'react';
 import '../assets/Shop.css'
 function Shop() {
     return (

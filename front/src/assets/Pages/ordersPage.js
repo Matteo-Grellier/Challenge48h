@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Order from './order';
 
 const OrdersPage = () => {
   const [orders, setOrders] = useState([]);
@@ -14,9 +13,9 @@ const OrdersPage = () => {
   return (
     <div className="orders-page">
       <h1>Orders</h1>
-      {orders.map((order, index) => (
+      {/* {orders.map((order, index) => (
         <OrderCard key={index} order={order} />
-      ))}
+      ))} */}
     </div>
   );
 };
