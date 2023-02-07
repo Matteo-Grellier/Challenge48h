@@ -48,7 +48,7 @@ function Header() {
               value="Close"
               onClick={() => setShowPopup(!showPopup)}
             />
-            <div className="content">
+            <div className="content2">
               <form action="Header.js" method="get">
                 Mail:
                 <br></br>
@@ -90,7 +90,7 @@ function Header() {
               value="Fermer"
               onClick={() => setShowSecondPop(!ShowSecondPop)}
             />
-            <div className="content">
+            <div className="content2">
               <form action="Header.js" method="get">
                 Full Name :
                 <input type="text" name="Name" />
