@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
+<<<<<<< HEAD
 // import Bag from "./components/Basket.js";
+=======
+>>>>>>> origin/dev
 
 function Header() {
   const [showPopup, setShowPopup] = useState(false);
@@ -14,7 +17,11 @@ function Header() {
             </a>
           </li>
           <li id="shopping">
+<<<<<<< HEAD
             <a href="#"> Your bag</a>
+=======
+            <a href="/OrdersPage"> Your bag</a>
+>>>>>>> origin/dev
           </li>
           <li id="login">
             <a>Login/LoginAdmin/Inscription</a>

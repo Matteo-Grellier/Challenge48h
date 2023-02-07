@@ -1,6 +1,6 @@
-import Card from './components/Card.js'
-import './assets/Card.css';
-import Header from "./components/Header.js";
+import React from 'react';
+import '../assets/Card.css';
+// import Header from "./components/Header.js";
 
 function Basket(){
     return (
