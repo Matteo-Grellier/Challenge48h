@@ -89,7 +89,7 @@ a {
 :root {
     --color-1: #9BE3DE;
     --color-2: #BEEBE9;
-    --color-3: #FFFDF9;
+    --color-3: #fff9f976;
     --color-4: #FFE3ED;
 }
 
@@ -176,7 +176,7 @@ body {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-color: var(--color-4);
+    background-color: 9BE3DE;
     display: flex;
     justify-content: center;
     align-items: center;
