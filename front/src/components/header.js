@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
-import Bag from "./components/Basket.js";
 
 function Header() {
   const [showPopup, setShowPopup] = useState(false);
@@ -14,7 +13,7 @@ function Header() {
             </a>
           </li>
           <li id="shopping">
-            <a href="./Basket.js"> Your bag</a>
+            <a href="/OrdersPage"> Your bag</a>
           </li>
           <li id="login">
             <a>Login/LoginAdmin/Inscription</a>
