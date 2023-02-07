@@ -41,6 +41,8 @@ The orders table records all orders made on this particular instance of the plat
 They are identified by a unique ID, the ID of the client making the purchase, as well as the ID of the product being purchased. The date of the purchase, the amount of products purchased and the status of the order are also stocked here.
 To conclude, the tables categorie gives the name of the category of product, as well as a unique ID referenced in the products table.
 
+![image](https://user-images.githubusercontent.com/58112376/217385456-69ec8e53-b7dc-410e-987e-6fdf7cd5af48.png)
+
 ## how to use it ##
 Before clonning make sure you have installed [node.js](https://nodejs.org/en/) version 16 on your computer using these commands :
 
