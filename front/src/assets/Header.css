@@ -37,20 +37,21 @@
     background-color: #48C5D7;
 }
 
-#home a {
-    padding: 18px;
-    height: 24px;
-    font-size: 10px;
-    line-height: 24px;
+#home a:hover{
+    background-color: #FFA653;
 }
+
+
+
+#shopping a:hover{
+    background-color: #FFA653;
+}
+
 
 #login {
-    left: 85%;
+    left: 76%;
 }
 
-#login a {
-    left: 90%;
-}
 
 
 a {

@@ -11,6 +11,9 @@ function Header() {
           <li id="home">
             <a href="#http://localhost:3000/#">Data dingos</a>
           </li>
+          <li id="shopping">
+            <a href="#"> Your bag </a>
+          </li>
           <li id="login">
             <a>Login/Inscription</a>
             <ul className="subnav">
