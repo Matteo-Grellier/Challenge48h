@@ -1,18 +1,16 @@
 import Card from './components/Card.js'
-import './assets/Card.css';
-import Header from "./components/Header.js";
-
+import Header from "./components/header.js";
+import  './assets/Card.css' ;
+import Shop from "./components/shop.js";
 function App() {
-  return (
+  return ( 
     <div>
     <meta charSet="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/homePage.css" type="text/css" />
+    <title>Data dingos</title>
     <header>
     <Header></Header>
     </header>
     <body>
-    
     <div className="content">
     <div className="contentcard">
     <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>

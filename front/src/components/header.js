@@ -11,8 +11,11 @@ function Header() {
           <li id="home">
             <a href="#http://localhost:3000/#">Data dingos</a>
           </li>
+          <li id="shopping">
+            <a href="#"> Your bag </a>
+          </li>
           <li id="login">
-            <a>Login/Inscription</a>
+            <a>Login/LoginAdmin/Inscription</a>
             <ul className="subnav">
               <li>
                 <a
@@ -21,6 +24,15 @@ function Header() {
                   onClick={() => setShowPopup(!showPopup)}
                 >
                   Login
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  value="LoginAdmin"
+                  onClick={() => setShowPopup(!showPopup)}
+                >
+                  Admin Login
                 </a>
               </li>
               <li>
@@ -48,15 +60,13 @@ function Header() {
               value="Close"
               onClick={() => setShowPopup(!showPopup)}
             />
-            <div className="content">
+            <div className="content2">
               <form action="Header.js" method="get">
                 Mail:
                 <br></br>
                 <input
-                  type="email"
+                  type="text"
                   id="email"
-                  pattern=".+@globex\.com"
-                  size="30"
                   required
                 />{" "}
                 <br></br>
@@ -90,19 +100,17 @@ function Header() {
               value="Fermer"
               onClick={() => setShowSecondPop(!ShowSecondPop)}
             />
-            <div className="content">
+            <div className="content2">
               <form action="Header.js" method="get">
-                Full Name :
+                Full Name : <br></br>
                 <input type="text" name="Name" />
                 <br></br>
                 <br></br>
                 Mail
                 <br></br>
                 <input
-                  type="email"
+                  type="text"
                   id="email"
-                  pattern=".+@globex\.com"
-                  size="30"
                   required
                 />{" "}
                 <br></br>
@@ -118,7 +126,7 @@ function Header() {
                 />
                 <br></br>
                 <br></br>
-                <label for="pass">Retype Password:</label>{" "}
+                <label for="pass">Retype Password:</label> <br></br>
                 <input
                   type="password"
                   id="pass"

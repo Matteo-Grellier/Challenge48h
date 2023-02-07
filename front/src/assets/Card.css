@@ -20,12 +20,12 @@
 .container {
   padding: 1px 14px;
   text-align: center;
-  background-color: #48C5D7;  
+  background-color: #48C5D7;
   border-radius: 4px;
-  
+
 }
 
-body{
+body {
   width: 100%;
   height: 120vh;
   display: flex;
@@ -48,12 +48,12 @@ body{
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
-  
+
   padding-top: 10rem;
   padding-right: 10rem;
 }
 
-.content{
+.content {
   display: flex;
   align-items: center;
   justify-content: center;
