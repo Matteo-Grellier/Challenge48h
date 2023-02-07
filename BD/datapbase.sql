@@ -52,3 +52,12 @@ ADD COLUMN password VARCHAR(255);
 ALTER TABLE merchants
 ADD COLUMN email VARCHAR(255),
 ADD COLUMN password VARCHAR(255);
+
+ALTER TABLE orders
+ADD COLUMN order_date DATE DEFAULT CURRENT_DATE,
+ADD COLUMN order_status ENUM('waiting', 'in delivery', 'delivered') DEFAULT 'waiting';
+ADD COLUMN quantity INT DEFAULT 1;
+
+ALTER TABLE products
+ADD COLUMN stock INT DEFAULT 0;
+
