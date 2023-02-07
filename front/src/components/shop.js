@@ -1,4 +1,4 @@
-import Header from './Header.js';
+import Header from './header.js';
 import '../assets/Shop.css'
 function Shop() {
     return (
