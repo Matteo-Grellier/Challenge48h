@@ -2,23 +2,23 @@ import React, { Component } from "react";
 
 function Card({ link, title, price, sellerName }) {
     return (
-    <div className="card">
-      <img
-                src={link}
+        <div className="card">
+        <img
+        src={link}
         style={{ width: "100%" }}
-      />
-      <div className="container">
+        />
+        <div className="container">
         <h4>
-          <b>{title}</b>
+        <b>{title}</b>
         </h4>
         <p>
-          <b>{price}</b>
+        <b>{price}</b>
         </p>
         <p>{sellerName}</p>
         <button id="buttonId">+ order</button>
-      </div>
-    </div>
-  );
-}
-
-export default Card;
+        </div>
+        </div>
+        );
+    }
+    
+    export default Card;
