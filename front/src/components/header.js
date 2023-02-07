@@ -10,7 +10,7 @@ function Header() {
         <ul className="nav">
           <li id="home">
             <a href="#">
-              <img src="settings.png" />
+              <img src="../picture/logo.jpg" id ="logo"/>
             </a>
           </li>
           <li id="login">
