@@ -15,7 +15,7 @@ function Header() {
             <a href="#"> Your bag </a>
           </li>
           <li id="login">
-            <a>Login/Inscription</a>
+            <a>Login/LoginAdmin/Inscription</a>
             <ul className="subnav">
               <li>
                 <a
@@ -24,6 +24,15 @@ function Header() {
                   onClick={() => setShowPopup(!showPopup)}
                 >
                   Login
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  value="LoginAdmin"
+                  onClick={() => setShowPopup(!showPopup)}
+                >
+                  Admin Login
                 </a>
               </li>
               <li>
