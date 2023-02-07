@@ -109,7 +109,7 @@ body {
 
 .contentPopUp {
     width: 22rem;
-    height: 45rem;
+    height: 35rem;
     background-color: var(--color-2);
     position: absolute;
     top: 50%;
@@ -166,7 +166,6 @@ body {
     height: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     margin: 1em;
     padding: 1em;
