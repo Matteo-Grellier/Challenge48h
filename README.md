@@ -14,9 +14,9 @@ In short, a client will be redirected to a server when connecting to the website
 ## Technical choices ##
 
 Firstly, we chose to make a first draft, using HTML, PHP and CSS to take a look see at the website and check how it should look like.
-We used `SQL` to build the database to stock all infos for each server separately // utilisation mongodb a rajouter.
+We used `SQL` to build the database to stock all infos for each server separately.
 
-After some time, we figured out it would be easier to go from HTML to `React`, so we modified our existing drafts to work with React. 
+After some time, we figured out it would be easier to go from HTML to `React`, whit `PostgreSQL` so we modified our existing drafts to work with React. 
 As for the simulation of the network, we decided of an `API` that handles the database and the website. All of the API will then be linked to each other using an `HTTPS protocol` which grants a secured communication. 
 
 Then, we can create paths to communicate, notably /api/newConnexion that is used to broadcast a new connection on the network to all servers. During each query, to allow a fast and responsive infrastructure, the data we got from that query is temporarily saved in the database server in order to give fast answers to the next request that needs these informations. It also allows for backup data in case we lose a server.
