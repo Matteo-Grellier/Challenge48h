@@ -5,6 +5,7 @@ h2{
 }
 
 .finalCard{
+    display: row;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 8px;
@@ -12,6 +13,7 @@ h2{
     height: 100px;
     width: 250px;
     align-items: center;
+    align-content: center;;
     position: absolute;
     right: 90px;
     top: 20rem;
