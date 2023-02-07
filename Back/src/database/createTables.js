@@ -1,4 +1,4 @@
-CREATE DATABASE marketplace;
+export const createTablesQuery = `CREATE DATABASE marketplace;
 
 USE marketplace;
 
@@ -32,3 +32,4 @@ CREATE TABLE orders (
   FOREIGN KEY (buyer_id) REFERENCES clients(id),
   FOREIGN KEY (product_id) REFERENCES products(id)
 );
+`
