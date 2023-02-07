@@ -65,3 +65,10 @@ buttonId:hover{
   display: flex;
   margin-right: 2rem;
 }
+
+img{
+  display: flex;
+  justify-items: center;
+
+
+}
