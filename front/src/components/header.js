@@ -1,9 +1,21 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
 
-function Header() {
+export default function Header() {
   const [showPopup, setShowPopup] = useState(false);
   const [ShowSecondPop, setShowSecondPop] = useState(false);
+
+  const [fullName, setFullName] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Password, setPassword] = useState('');
+  const [Country, setCountry] = useState('');
+  const [Location, setLocation] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // ${fullName}${Email}${Password} ${Country} ${Location}
+  };
+
   return (
     <div className="Header" id="container">
       <div className="Header-header">
@@ -64,21 +76,21 @@ function Header() {
               onClick={() => setShowSecondPop(!ShowSecondPop)}
             />
             <div className="content">
-              <form action="" method="post">
+              <form onSubmit={handleSubmit}>
                 Full Name : <br></br>
-                <input type="text" name="Name" />
+                <input type="text" id="fullName" name="fullName" value={fullName} onChange={(event) => setFullName(event.target.value)} />
                 <br></br>
                 Mail <br></br>
-                <input type="email" id="email" pattern=".+@globex\.com" size="30" required />{" "}
+                <input type="email" size="30" id="Email" name="Email" value={Email} onChange={(event) => setEmail(event.target.value)}/>{" "}
                 <br></br>
                 <label for="pass">Password (8 characters minimum):</label>{" "}
                 <br />
-                <input type="password" id="pass" name="password" minlength="8" required />
+                <input type="password" id="Password" name="Password" value={Password} onChange={(event) => setPassword(event.target.value)}/>
                 <br />
-                Coutry code : <br></br>
-                <input type="text" name="Countrie" /> <br></br>
-                Adress : <br></br>
-                <input type="text" name="Adress" /> <br></br>
+                Country code : <br></br>
+                <input type="text" id="Country" name="country" value={Country} onChange={(event) => setCountry(event.target.value)} /> <br></br>
+                Location : <br></br>
+                <input type="text" id="Location" name="Location" value={Location} onChange={(event) => setLocation(event.target.value) } /> <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
             </div>
@@ -88,5 +100,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
