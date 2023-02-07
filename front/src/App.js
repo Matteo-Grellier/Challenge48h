@@ -7,15 +7,36 @@ function App() {
    <header>
       <meta charSet="UTF-8" />
       <title>Data Dingos</title>
-      <link rel="stylesheet" href="../assets/homePage.css" type="text/css" />
         <Header></Header>
-  </header>
-  <body>
-        
- <Card Name = "test" > </Card>  
-        <Card /> 
-        <Card />
-       {/* <Shop></Shop>         */}
+      </header>
+      <body>
+
+        <div className="content">
+          <div className="contentcard">
+            <Card> <h4> test</h4></Card>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+
+
+          </div>
+        </div>
+
+
       </body>
    </div>
     

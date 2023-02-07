@@ -1,5 +1,5 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 13rem;
   height: 12rem;
@@ -17,14 +17,14 @@
 .container {
   padding: 1px 14px;
   text-align: center;
-  background-color: #48C5D7;  
+  background-color: #48C5D7;
   border-radius: 4px;
-  
+
 }
 
-body{
-    width: 100%;
-    height: 100vh;
+body {
+  width: 100%;
+  height: 125vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,17 +38,17 @@ body{
   min-height: 50rem;
   max-height: 40rem;
   display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+
   padding-top: 10rem;
   padding-right: 10rem;
 }
 
-.content{
+.content {
   display: flex;
   align-items: center;
   justify-content: center;
