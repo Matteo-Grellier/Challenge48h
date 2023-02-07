@@ -3,9 +3,7 @@ import React, { Component } from "react";
 function Card({ link, title, price, sellerName, type }) {
     return (
     <div className="card">
-      <img
-                src={link}
-        style={{ width: "100%" }}
+      <img src={link} style={{ width: "91%" }}
       />
       <div className="container">
         <h4>

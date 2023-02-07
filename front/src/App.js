@@ -15,7 +15,6 @@ function App() {
      </header>
      <body>
        {" "}
-       //FOOD / VEHICULE / JEU
        <div className="content">
          <div className="contentcard">
            <Card

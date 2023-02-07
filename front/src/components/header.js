@@ -64,12 +64,7 @@ function Header() {
               <form action="Header.js" method="get">
                 Mail:
                 <br></br>
-                <input
-                  type="text"
-                  id="email"
-                  required
-                />{" "}
-                <br></br>
+                <input type="text" id="email" required /> <br></br>
                 <label for="pass">Password:</label>
                 <br></br>
                 <input
@@ -77,6 +72,7 @@ function Header() {
                   id="pass"
                   name="password"
                   minlength="8"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -108,12 +104,7 @@ function Header() {
                 <br></br>
                 Mail
                 <br></br>
-                <input
-                  type="text"
-                  id="email"
-                  required
-                />{" "}
-                <br></br>
+                <input type="text" id="email" required /> <br></br>
                 <br></br>
                 <label for="pass">Password (8 characters minimum):</label>{" "}
                 <br></br>
@@ -121,7 +112,8 @@ function Header() {
                   type="password"
                   id="pass"
                   name="password"
-                  minlength="8"
+                  minlength="12"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -131,7 +123,8 @@ function Header() {
                   type="password"
                   id="pass"
                   name="password"
-                  minlength="8"
+                  minlength="12"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -147,10 +140,16 @@ function Header() {
               </form>
             </div>
           </div>
+          <div class="content second">
+            <h1>Cross with animation menu</h1>
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
         </div>
       )}
     </div>
   );
-}
-
-export default Header;
+      }
+      
+      export default Header;
