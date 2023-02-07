@@ -9,9 +9,7 @@ function Header() {
       <header className="Header-header">
         <ul className="nav">
           <li id="home">
-            <a href="#">
-              <img src="../picture/logo.jpg" id ="logo"/>
-            </a>
+            <a href="#" >Data dingos</a>
           </li>
           <li id="login">
             <a>Login/Inscription</a>
@@ -27,9 +25,7 @@ function Header() {
       </header>
       {showPopup && (
         <div id="popupdiv">
-          <div
-            className="backgroundPopUp"
-            onClick={() => setShowPopup(!showPopup)}
+          <div className="backgroundPopUp"onClick={() => setShowPopup(!showPopup)}
           ></div>
           <div className="contentPopUp">
             <input type="button"className="buttonInPopUp"value="Fermer"onClick={() => setShowPopup(!showPopup)} />

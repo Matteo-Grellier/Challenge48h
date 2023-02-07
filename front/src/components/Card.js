@@ -6,12 +6,11 @@ function Card() {
         src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?cs=srgb&dl=pexels-pixabay-51312.jpg&fm=jpg"
         style={{width: '100%' }} />
         <div className="container">
-        <h4><b>nom du produit</b></h4>  
-        <p>prix$$$</p>
-        <p>nom du vendeur </p>
+                <h4><b> Name  </b></h4>  
+                <p> Price  $$$</p>
+        <p> Seller  </p>
+            </div>
         </div>
-        </div>
-        
         );
     }
     

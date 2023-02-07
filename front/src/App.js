@@ -14,11 +14,14 @@ function App() {
   <body>
         
 
-    {/* <Card title= "test"> </Card> 
+ {/* <Card title= "test"> </Card>  */}
+        {/* <Card /> 
+        <Card />
         <Card /> */}
-        <Shop></Shop>       
-</body>
-</div>
+       <Shop></Shop>        
+      </body>
+   </div>
+    
   );
 }
 

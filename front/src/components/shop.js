@@ -12,6 +12,7 @@ function Shop() {
         <div class="container">
           <p id="name">Nom du Produit</p>
           <div class="image">
+            <br />
             <img src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?cs=srgb&dl=pexels-pixabay-51312.jpg&fm=jpg"style={{ width: "30%" }}/>
           </div>
           <div class="Info">

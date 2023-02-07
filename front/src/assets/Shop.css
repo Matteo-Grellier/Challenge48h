@@ -1,15 +1,17 @@
 .image{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 30%;
 }
 
 .container{
 display :flex;
 align-items: center;
+flex-direction: column;
 margin-top: 11%;
 
 }
+
 
 .Info{
     display: flex;
