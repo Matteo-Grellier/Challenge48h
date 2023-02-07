@@ -15,7 +15,7 @@ function Card({ link, title, price, sellerName }) {
         <b>{price}</b>
         </p>
         <p>{sellerName}</p>
-        <button id="buttonId">+ order</button>
+        <button id="button">+ order</button>
         </div>
         </div>
         );
