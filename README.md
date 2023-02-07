@@ -13,6 +13,5 @@ In short, a client would connect on the website, and be redirected towards a ser
 ## Technical choices ##
 At first, we chose to make a first draft, using HTML, PHP and CSS to roughly see how the website should look like.
 We used SQL to slowly build the database to stock all infos for each server separately.
-
-
-
+after some time, we figured out it would be easier to revert from HTML to React, so we modified our existing drafts to work with React. 
+As for the simulation of the network, 
