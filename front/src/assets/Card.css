@@ -27,7 +27,7 @@
 
 body {
   width: 100%;
-  height: 120vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,8 +58,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-buttonId:hover{
-  background-color: #FFA653;
+
+.buttonId{
   border: black;
   border-radius: 4px;
   display: flex;
@@ -71,4 +71,8 @@ img{
   justify-items: center;
 
 
+  /* display: flex; */
+  /* right: 1em; */
+  margin-left: 135px;
+  position: relative;
 }
