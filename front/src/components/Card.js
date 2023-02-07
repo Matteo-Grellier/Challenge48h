@@ -7,16 +7,16 @@ function Card({ link, title, price, sellerName, type }) {
       />
       <div className="container">
         <h4>
-          <b>{title}</b>
+        <b>{title}</b>
         </h4>
         <p>
-          <b>{price}</b>
+        <b>{price}</b>
         </p>
         <p>{sellerName}</p>
-        <button id="buttonId">+ order</button>
-      </div>
-    </div>
-  );
-}
-
-export default Card;
+        <button id="button">+ order</button>
+        </div>
+        </div>
+        );
+    }
+    
+    export default Card;
