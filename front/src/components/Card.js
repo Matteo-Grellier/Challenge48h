@@ -1,20 +1,24 @@
-function Card({title,price,sellerName}) {
+import React, { Component } from "react";
+
+function Card({ link, title, price, sellerName }) {
     return (
-        <div className="card"  >
-        <img
-        src="https://images.pexels.com/photos/51312/kiwi-fruit-vitamins-healthy-eating-51312.jpeg?cs=srgb&dl=pexels-pixabay-51312.jpg&fm=jpg"
-        style={{width: '99%' }} />
-        <div className="container">
-        <h4><b>{title}</b></h4>  
-        <p><b>{price}</b></p>
+    <div className="card">
+      <img
+                src={link}
+        style={{ width: "100%" }}
+      />
+      <div className="container">
+        <h4>
+          <b>{title}</b>
+        </h4>
+        <p>
+          <b>{price}</b>
+        </p>
         <p>{sellerName}</p>
-        <button class="buttonId">+ order</button>
-        
-        
-        </div>
-        </div>
-        
-        );
-    }
-    
+        <button id="buttonId">+ order</button>
+      </div>
+    </div>
+  );
+}
+
 export default Card;
