@@ -32,3 +32,23 @@ CREATE TABLE orders (
   FOREIGN KEY (buyer_id) REFERENCES clients(id),
   FOREIGN KEY (product_id) REFERENCES products(id)
 );
+
+CREATE TABLE categories (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  category_name VARCHAR(255)
+);
+
+ALTER TABLE products
+ADD COLUMN category_id INT,
+ADD FOREIGN KEY (category_id) REFERENCES categories(id);
+
+ALTER TABLE clients
+CHANGE country_code country_code VARCHAR(3);
+
+ALTER TABLE clients
+ADD COLUMN email VARCHAR(255),
+ADD COLUMN password VARCHAR(255);
+
+ALTER TABLE merchants
+ADD COLUMN email VARCHAR(255),
+ADD COLUMN password VARCHAR(255);
