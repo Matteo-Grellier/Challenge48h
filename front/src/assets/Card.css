@@ -1,5 +1,5 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 13rem;
   height: 12rem;
@@ -12,8 +12,8 @@
   
 }
 
-a:hover {
-  box-shadow: 0 8px 16px 0 #FFA653;
+.card:hover {
+  box-shadow: 0 8px 40px 0 #FFA653;
   background-color: #fc8517;
 }
 
@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
   
 }
 
@@ -56,4 +57,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+buttonId:hover{
+  background-color: #FFA653;
+  border: black;
+  border-radius: 4px;
+  display: flex;
+  margin-right: 2rem;
 }

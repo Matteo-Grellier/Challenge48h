@@ -49,7 +49,7 @@
 
 
 #login {
-    left: 74%;
+    left: 69%;
 }
 
 
@@ -163,7 +163,7 @@ body {
 }
 
 .content2 {
-    width: 15rem;
+    width: 30rem;
     height: 20rem;
     display: flex;
     flex-direction: column;

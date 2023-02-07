@@ -65,10 +65,8 @@ function Header() {
                 Mail:
                 <br></br>
                 <input
-                  type="email"
+                  type="text"
                   id="email"
-                  pattern=".+@globex\.com"
-                  size="30"
                   required
                 />{" "}
                 <br></br>
@@ -104,17 +102,15 @@ function Header() {
             />
             <div className="content2">
               <form action="Header.js" method="get">
-                Full Name :
+                Full Name : <br></br>
                 <input type="text" name="Name" />
                 <br></br>
                 <br></br>
                 Mail
                 <br></br>
                 <input
-                  type="email"
+                  type="text"
                   id="email"
-                  pattern=".+@globex\.com"
-                  size="30"
                   required
                 />{" "}
                 <br></br>
@@ -130,7 +126,7 @@ function Header() {
                 />
                 <br></br>
                 <br></br>
-                <label for="pass">Retype Password:</label>{" "}
+                <label for="pass">Retype Password:</label> <br></br>
                 <input
                   type="password"
                   id="pass"

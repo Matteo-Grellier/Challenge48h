@@ -6,12 +6,11 @@ function App() {
   return ( 
     <div>
     <meta charSet="UTF-8" />
-    <title>Document</title>
+    <title>Data dingos</title>
     <header>
     <Header></Header>
     </header>
     <body>
-    
     <div className="content">
     <div className="contentcard">
     <Card title= "Kiwi" price="3$" sellerName="Bob Michael"/>
