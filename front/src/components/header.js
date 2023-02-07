@@ -16,7 +16,7 @@ function Header() {
             <a href="./Basket.js"> Your bag</a>
           </li>
           <li id="login">
-            <a>Login/LoginAdmin/Inscription</a>
+            <a>Login/Inscription</a>
             <ul className="subnav">
               <li>
                 <a
@@ -142,12 +142,7 @@ function Header() {
             </div>
           </div>
          {/* <Basket></Basket> */}
-          <div class="content second">
-            <h1>Cross with animation menu</h1>
-            <div class="burger">
-              <span></span>
-            </div>
-          </div>
+ 
         </div>
       )}
     </div>
