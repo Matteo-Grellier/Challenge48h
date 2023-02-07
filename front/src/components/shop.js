@@ -1,15 +1,14 @@
-import Header from './Header.js';
+import Header from './header.js';
 import '../assets/Shop.css'
 function Shop() {
     return (
       <body>
         <meta charSet="UTF-8" />
-        <title>Document</title>
         <link rel="stylesheet" href="../assets/Shop.css" type="text/css" />
         <header>
           <Header></Header>
         </header>
-        <div class="container">
+        <div class="container2">
           <p id="name">Nom du Produit</p>
           <div class="image">
             <br />

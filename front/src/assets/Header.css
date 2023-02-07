@@ -53,20 +53,21 @@ body {
     background-color: #48C5D7;
 }
 
-#home a {
-    padding: 18px;
-    height: 24px;
-    font-size: 10px;
-    line-height: 24px;
+#home a:hover{
+    background-color: #FFA653;
 }
+
+
+
+#shopping a:hover{
+    background-color: #FFA653;
+}
+
 
 #login {
-    left: 85%;
+    left: 69%;
 }
 
-#login a {
-    left: 90%;
-}
 
 
 a {
@@ -102,8 +103,8 @@ a {
 }
 
 .contentPopUp {
-    width: 15rem;
-    height: 15rem;
+    width: 22rem;
+    height: 35rem;
     background-color: var(--color-2);
     position: absolute;
     top: 50%;
@@ -119,8 +120,8 @@ a {
 }
 
 #popupdiv {
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -155,12 +156,11 @@ a {
     transition: all 0.4s ease-in-out;
 }
 
-.content {
-    width: 15rem;
+.content2 {
+    width: 30rem;
     height: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     margin: 1em;
     padding: 1em;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
+import Bag from "./components/Basket.js";
 
 export default function Header() {
   const [showPopup, setShowPopup] = useState(false);
@@ -21,15 +22,40 @@ export default function Header() {
       <div className="Header-header">
         <ul className="nav">
           <li id="home">
-            <a href="#" >Data dingos</a>
+            <a href="#http://localhost:3000/#">Data dingos
+            </a>
+          </li>
+          <li id="shopping">
+            <a href="./Basket.js"> Your bag</a>
           </li>
           <li id="login">
-            <a>Login/Inscription</a>
+            <a>Login/LoginAdmin/Inscription</a>
             <ul className="subnav">
-              <li> <a href="#" value="Login" onClick={() => setShowPopup(!showPopup)}>Login</a>
+              <li>
+                <a
+                  href="#"
+                  value="Login"
+                  onClick={() => setShowPopup(!showPopup)}
+                >
+                  Login
+                </a>
               </li>
               <li>
-                <a href="#inscription" onClick={() => setShowSecondPop(!ShowSecondPop)}>Register</a>
+                <a
+                  href="#"
+                  value="LoginAdmin"
+                  onClick={() => setShowPopup(!showPopup)}
+                >
+                  Admin Login
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#inscription"
+                  onClick={() => setShowSecondPop(!ShowSecondPop)}
+                >
+                  Register
+                </a>
               </li>
             </ul>
           </li>
@@ -37,17 +63,29 @@ export default function Header() {
       </div>
       {showPopup && (
         <div id="popupdiv">
-          <div className="backgroundPopUp" onClick={() => setShowPopup(!showPopup)}
+          <div
+            className="backgroundPopUp"
+            onClick={() => setShowPopup(!showPopup)}
           ></div>
           <div className="contentPopUp">
-            <input type="button" className="buttonInPopUp" value="Fermer" onClick={() => setShowPopup(!showPopup)} />
-            <div className="content">
+            <input
+              type="button"
+              className="buttonInPopUp"
+              value="Close"
+              onClick={() => setShowPopup(!showPopup)}
+            />
+            <div className="content2">
               <form action="Header.js" method="get">
+                Mail:
                 <br></br>
-                Mail <br></br>
-                <input type="email" id="email" pattern=".+@globex\.com" size="30" required />{" "}
+                <input
+                  type="text"
+                  id="email"
+                  required
+                />{" "}
                 <br></br>
-                <label for="pass">Password:</label> <br />
+                <label for="pass">Password:</label>
+                <br></br>
                 <input
                   type="password"
                   id="pass"
@@ -55,7 +93,7 @@ export default function Header() {
                   minlength="8"
                   required
                 />
-                <br />
+                <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
             </div>
@@ -69,28 +107,56 @@ export default function Header() {
             onClick={() => setShowSecondPop(!ShowSecondPop)}
           ></div>
           <div className="contentPopUp">
+            <br></br>
             <input
               type="button"
               className="buttonInPopUp"
               value="Fermer"
               onClick={() => setShowSecondPop(!ShowSecondPop)}
             />
-            <div className="content">
-              <form onSubmit={handleSubmit}>
+            <div className="content2">
+              <form action="Header.js" method="get">
                 Full Name : <br></br>
                 <input type="text" id="fullName" name="fullName" value={fullName} onChange={(event) => setFullName(event.target.value)} />
                 <br></br>
-                Mail <br></br>
-                <input type="email" size="30" id="Email" name="Email" value={Email} onChange={(event) => setEmail(event.target.value)}/>{" "}
+                <br></br>
+                Mail
+                <br></br>
+                <input
+                  type="text"
+                  id="email"
+                  required
+                />{" "}
+                <br></br>
                 <br></br>
                 <label for="pass">Password (8 characters minimum):</label>{" "}
-                <br />
-                <input type="password" id="Password" name="Password" value={Password} onChange={(event) => setPassword(event.target.value)}/>
-                <br />
-                Country code : <br></br>
-                <input type="text" id="Country" name="country" value={Country} onChange={(event) => setCountry(event.target.value)} /> <br></br>
-                Location : <br></br>
-                <input type="text" id="Location" name="Location" value={Location} onChange={(event) => setLocation(event.target.value) } /> <br></br>
+                <br></br>
+                <input
+                  type="password"
+                  id="pass"
+                  name="password"
+                  minlength="8"
+                  required
+                />
+                <br></br>
+                <br></br>
+                <label for="pass">Retype Password:</label> <br></br>
+                <input
+                  type="password"
+                  id="pass"
+                  name="password"
+                  minlength="8"
+                  required
+                />
+                <br></br>
+                <br></br>
+                Coutry code :<br></br>
+                <input type="text" name="Countrie" />
+                <br></br>
+                <br></br>
+                Adress :<br></br>
+                <input type="text" name="Adress" />
+                <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
             </div>
