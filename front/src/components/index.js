@@ -9,8 +9,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="./components/Card.js" element={<Card />}>
-          <Route path="./components/shop.js" element={<Shop />} />
+        <Route path="/Card.js" element={<Card />}>
+          <Route path="/shop.js" element={<Shop />} />
           <Route path="/header" element={<Header />} />
           <Route path="/OrdersPage" element={<OrdersPage />} />
           <Route path="/SellerPage.js" element={<SellerPage />} />
