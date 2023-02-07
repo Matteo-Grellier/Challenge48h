@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-function Card({ link, title, price, sellerName }) {
+function Card({ link, title, price, sellerName, type }) {
     return (
     <div className="card">
       <img
