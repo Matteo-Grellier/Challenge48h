@@ -1,5 +1,4 @@
-// import Card from './components/Card.js'
-//import './assets/Card.css';
+ import Card from './components/Card.js'
 import Header from "./components/Header.js";
 import Shop from "./components/shop.js";
 function App() {
@@ -7,18 +6,16 @@ function App() {
     <div>
    <header>
       <meta charSet="UTF-8" />
-      <title>Document</title>
+      <title>Data Dingos</title>
       <link rel="stylesheet" href="../assets/homePage.css" type="text/css" />
         <Header></Header>
   </header>
   <body>
         
-
- {/* <Card title= "test"> </Card>  */}
-        {/* <Card /> 
+ <Card Name = "test" > </Card>  
+        <Card /> 
         <Card />
-        <Card /> */}
-       <Shop></Shop>        
+       {/* <Shop></Shop>         */}
       </body>
    </div>
     
