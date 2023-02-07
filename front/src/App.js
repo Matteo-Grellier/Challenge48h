@@ -15,6 +15,7 @@ function App() {
 
         <div className="content">
           <div className="contentcard">
+            <Card> <h4> test</h4></Card>
             <Card />
             <Card />
             <Card />
@@ -25,6 +26,15 @@ function App() {
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+
+
           </div>
         </div>
 
