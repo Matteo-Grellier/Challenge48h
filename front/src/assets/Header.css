@@ -3,6 +3,22 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #9BE3DE;
+    --color-2: #BEEBE9;
+    --color-3: #FFFDF9;
+    --color-4: #FFE3ED;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .nav {
@@ -107,6 +123,7 @@ body {
     background-color: var(--color-3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 
 .contentPopUp {
     width: 22rem;
@@ -227,3 +244,4 @@ input[type="submit"] {
     border-radius: 5px;
     background-color: white;
 }
+
