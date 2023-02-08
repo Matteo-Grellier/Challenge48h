@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../assets/Header.css";
 //import Basket from "./components/Basket.js";
 
-export default function Header() {
+ function Header() {
   const [showPopup, setShowPopup] = useState(false);
   const [ShowSecondPop, setShowSecondPop] = useState(false);
   const [showThirdPopup,setLastShowPopup] = useState(false);
@@ -195,8 +195,6 @@ export default function Header() {
       )}
     </div>
   );
-      }
-      
-      export default Header;
+};
+export default Header;
 
-}

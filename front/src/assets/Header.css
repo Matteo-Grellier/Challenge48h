@@ -229,14 +229,19 @@ input[name="Name"] {
     border-radius: 10px;
     background-color: #46bcce;
 }
+#fullName {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
 input[name="Countrie"] {
     border: 2px solid black;
     border-radius: 10px;
     background-color: #46bcce;
 }
 input[name="Adress"] {
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
     background-color: #46bcce;
 }
 input[type="submit"] {
