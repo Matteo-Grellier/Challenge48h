@@ -7,8 +7,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/OrdersPage" element={<Basket />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/OrdersPage" element={<Basket />} />
       </Routes>
     </BrowserRouter>
   );

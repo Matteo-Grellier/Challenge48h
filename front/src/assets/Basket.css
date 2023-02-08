@@ -1,0 +1,52 @@
+h2{
+    position: absolute;
+    left: 10px;
+    top: 4rem;
+}
+
+.finalCard{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    background-color: #FFA653;
+    height: 100px;
+    width: 450px;
+    position: absolute;
+    right: 7px;
+    top: 20rem;
+}
+
+.finalCard:hover {
+    box-shadow: 0 8px 40px 0 #FFA653;
+  }
+
+#purchaseButton{
+    background-color: lightgrey;
+    border-radius: 6px; 
+    height: 40px;
+    width: 100px;
+    display: flex;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.card1{
+    display:flex;
+    position: relative;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 8px;
+    background-color: #FFA653;
+    height: 152px;
+    width: 550px;
+    margin-top: 8rem;
+    margin-left: 25px;
+
+}
+
+
+  

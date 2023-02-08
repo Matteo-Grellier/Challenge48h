@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
+//import Basket from "./components/Basket.js";
 
 export default function Header() {
   const [showPopup, setShowPopup] = useState(false);
   const [ShowSecondPop, setShowSecondPop] = useState(false);
+  const [showThirdPopup,setLastShowPopup] = useState(false);
+
 
   const [fullName, setFullName] = useState('');
   const [Email, setEmail] = useState('');
@@ -21,14 +24,13 @@ export default function Header() {
       <div className="Header-header">
         <ul className="nav">
           <li id="home">
-            <a href="#http://localhost:3000/#">Data dingos
-            </a>
+            <a href="/"> Data dingos</a>
           </li>
           <li id="shopping">
             <a href="/OrdersPage"> Your bag</a>
           </li>
           <li id="login">
-            <a>Login/LoginAdmin/Inscription</a>
+            <a>Login/Inscription</a>
             <ul className="subnav">
               <li>
                 <a
@@ -43,7 +45,7 @@ export default function Header() {
                 <a
                   href="#"
                   value="LoginAdmin"
-                  onClick={() => setShowPopup(!showPopup)}
+                  onClick={() => setLastShowPopup(!showThirdPopup)}
                 >
                   Admin Login
                 </a>
@@ -77,12 +79,42 @@ export default function Header() {
               <form action="Header.js" method="get">
                 Mail:
                 <br></br>
-                <input
-                  type="text"
-                  id="email"
-                  required
-                />{" "}
+                <input type="text" id="email" required /> <br></br>
+                <label for="pass">Password:</label>
                 <br></br>
+                <input
+                  type="password"
+                  id="pass"
+                  name="password"
+                  minlength="12"
+                  encripted="true"
+                  required
+                />
+                <br></br>
+                <input type="submit" value="Submit"></input>
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
+      {showThirdPopup && (
+        <div id="popupdiv">
+          <div
+            className="backgroundPopUp"
+            onClick={() => setLastShowPopup(!showThirdPopup)}
+          ></div>
+          <div className="contentPopUp">
+            <input
+              type="button"
+              className="buttonInPopUp"
+              value="Close"
+              onClick={() => setLastShowPopup(!showThirdPopup)}
+            />
+            <div className="content2">
+              <form action="Header.js" method="get">
+                Mail:
+                <br></br>
+                <input type="text" id="email" required /> <br></br>
                 <label for="pass">Password:</label>
                 <br></br>
                 <input
@@ -90,6 +122,7 @@ export default function Header() {
                   id="pass"
                   name="password"
                   minlength="8"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -121,20 +154,16 @@ export default function Header() {
                 <br></br>
                 Mail
                 <br></br>
-                <input
-                  type="text"
-                  id="email"
-                  required
-                />{" "}
+                <input type="text" id="email" required /> <br></br>
                 <br></br>
-                <br></br>
-                <label for="pass">Password (8 characters minimum):</label>{" "}
+                <label for="pass">Password (12 characters minimum):</label>{" "}
                 <br></br>
                 <input
                   type="password"
                   id="pass"
                   name="password"
-                  minlength="8"
+                  minlength="12"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -144,7 +173,8 @@ export default function Header() {
                   type="password"
                   id="pass"
                   name="password"
-                  minlength="8"
+                  minlength="12"
+                  encripted="true"
                   required
                 />
                 <br></br>
@@ -160,8 +190,13 @@ export default function Header() {
               </form>
             </div>
           </div>
+          {/* <Basket></Basket> */}
         </div>
       )}
     </div>
   );
+      }
+      
+      export default Header;
+
 }

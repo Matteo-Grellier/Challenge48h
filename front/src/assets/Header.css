@@ -102,6 +102,29 @@ a {
     opacity: 1;
 }
 
+:root {
+    --color-1: #9BE3DE;
+    --color-2: #BEEBE9;
+    --color-3: #fff9f976;
+    --color-4: #FFE3ED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
 .contentPopUp {
     width: 22rem;
     height: 35rem;
@@ -170,7 +193,7 @@ a {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-color: var(--color-4);
+    background-color: 9BE3DE;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,3 +211,37 @@ a {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.4s ease-in-out;
 }
+
+#pass{
+    border-radius: 10px;
+        border: 2px solid black;
+        background-color: #48C5D7;
+}
+#email {
+
+     border: 2px solid black;
+    border-radius: 10px;
+    background-color: #50d4e9;
+}
+
+input[name="Name"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[name="Countrie"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[name="Adress"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
