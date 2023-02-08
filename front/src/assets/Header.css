@@ -195,3 +195,35 @@ body {
     transition: all 0.4s ease-in-out;
 }
 
+#pass{
+    border-radius: 10px;
+        border: 2px solid black;
+        background-color: #48C5D7;
+}
+#email {
+
+     border: 2px solid black;
+    border-radius: 10px;
+    background-color: #50d4e9;
+}
+
+input[name="Name"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[name="Countrie"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[name="Adress"] {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #46bcce;
+}
+input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}

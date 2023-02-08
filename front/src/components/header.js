@@ -112,7 +112,7 @@ function Header() {
                   encripted="true"
                   required
                 />
-                <br></br>Order
+                <br></br>
                 <input type="submit" value="Submit"></input>
               </form>
             </div>

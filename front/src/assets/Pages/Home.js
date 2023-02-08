@@ -1,8 +1,6 @@
-import '../home.css'
 import Card from "../../components/Card.js";
 import Header from "../../components/header.js";
 import React, { Component } from 'react';
-import '../Card.css';
 import OrdersPage from "../../assets/Pages/ordersPage.js";
 
 function Home() {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../assets/Card.css"
 
 function Card({ link, title, price, sellerName, type }) {
     return (
