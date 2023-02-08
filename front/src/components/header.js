@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import "../assets/Header.css";
 
-function Header() {
+export default function Header() {
   const [showPopup, setShowPopup] = useState(false);
   const [ShowSecondPop, setShowSecondPop] = useState(false);
+
+  const [fullName, setFullName] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Password, setPassword] = useState('');
+  const [Country, setCountry] = useState('');
+  const [Location, setLocation] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // ${fullName}${Email}${Password} ${Country} ${Location}
+  };
+
   return (
     <div className="Header" id="container">
-      <header className="Header-header">
+      <div className="Header-header">
         <ul className="nav">
           <li id="home">
             <a href="#http://localhost:3000/#">Data dingos
@@ -47,7 +59,7 @@ function Header() {
             </ul>
           </li>
         </ul>
-      </header>
+      </div>
       {showPopup && (
         <div id="popupdiv">
           <div
@@ -104,7 +116,7 @@ function Header() {
             <div className="content2">
               <form action="Header.js" method="get">
                 Full Name : <br></br>
-                <input type="text" name="Name" />
+                <input type="text" id="fullName" name="fullName" value={fullName} onChange={(event) => setFullName(event.target.value)} />
                 <br></br>
                 <br></br>
                 Mail
@@ -153,5 +165,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
